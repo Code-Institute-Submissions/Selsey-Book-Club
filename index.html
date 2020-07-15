@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
@@ -11,74 +14,41 @@
 </head>
 <body>
     <header>
-                <div class="col-md-12">
+            <div class="col-md-12" style="padding:0">
                     <div class="row no-gutters bg-color-name-title">
                         <div class="col heading">
                             <h1 class="name">Selsey Book Club</h1>
                             <h2 class="title">Let's talk books!</h2>
                         </div>
                     </div>
-            <div class="row no-gutters">
+
+            <div class="row header-container-fluid no-gutters">
                         <div class="col">
                             <ul id="nav" class="list-inline menucontainer">
-                                <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
+                                <li class="col-6 col-sm-3 list-inline-item menuitem">
                                 <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                                 </li>
 
-                                <li class="col-6 col-sm-3 ui-menu-color-booksinstock list-inline-item menuitem">
-                                <a href="booksinstock.html" class="hvr-sweep-to-bottom"><i class="fas fa-book" aria-hidden="true"></i><span>Books in stock</span></a>
+                                <li class="col-6 col-sm-3 list-inline-item menuitem">
+                                <a href="populartitles.html" class="hvr-sweep-to-bottom"><i class="fas fa-book" aria-hidden="true"></i><span>Popular Titles</span></a>
                                 </li>
 
-                                <li class="col-6 col-sm-3 ui-menu-color-donate list-inline-item menuitem">
-                                <a href="donate.html" class="hvr-sweep-to-bottom"><i class="fas fa-hand-holding-usd" aria-hidden="true"></i><span>Donate</span></a>
+                                <li class="col-6 col-sm-3 list-inline-item menuitem">
+                                <a href="recycle-books.html" class="hvr-sweep-to-bottom"><i class="fas fa-recycle" aria-hidden="true"></i><span>Recycle Books</span></a>
                                 </li>
 
-                                <li class="col-6 col-sm-3 ui-menu-color-signin-signup list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom" data-toggle="modal" data-target="#SignUpModal"><i class="fas fa-download" aria-hidden="true"></i><span>Sign Up</span></a>
+                                <li class="col-6 col-sm-3 list-inline-item menuitem">
+                                <a href="join-the-club.html" class="hvr-sweep-to-bottom"><i class="fas fa-comments" aria-hidden="true"></i><span> Join the Club</span></a>
                                 </li>
                                
                             </ul>
                         </div>
                     </div>
                 </div>
+            
     </header>
 
-    <div class="modal" tabindex="-1" role="dialog" id="SignUpModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title">Sign Up to Selsey Book Club!</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-
-    <div class="modal-body">
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-  
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="Password" placeholder="Password">
-            </div>
-
-            <div class="form-group">
-                <label for="repeatPassword">Repeat Password</label>
-                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-            </div>
-  
-            <button type="submit" class="btn btn-success">Submit</button>
-        </form>
-    </div>
-      
-    </div>
-  </div>
-</div>
-
+    
 
 
     <div class="quotes-container content-container">
@@ -153,7 +123,8 @@
                 </div>
                 <div class="feature-body">
                     <p>Human engagement is essential for our mental well-being. We connect our members to each other based on similar areas of interest
-                    and now we have a few groups that meet quite regularly at different outdoor venues to discuss the books they are reading. </p>
+                    and now we have a few groups that are connected on watsapp and meet quite regularly at different outdoor venues to discuss the books 
+                    they are reading. </p>
                     <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                 </div>
             </div>

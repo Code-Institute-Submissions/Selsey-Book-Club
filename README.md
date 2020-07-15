@@ -1,15 +1,36 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project.
+# Selsey Book Club 
+## Let's Talk Books
 
-Essentially, this part is your sales pitch.
+### The book club idea stems from the overall need for human beings to connect with other human beings which gets even more relevant under current circumstances. An informal chat with some of the neighbours down the road pointed towards the need of a common activity that can help people come together and chat. Book reading emerged as something everyone does to some degree so as I decided to take the idea forward.
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## User Stories
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+### User 1 : Meet People from the neighbourhood
+### User 2 : Discuss Books
+### User 3: Know about different geners of books available
+### User 4: Start a book club in my own area
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+## Features
+
+- ### The club helps form sub-groups of readers who enjoy the same/similar books and connects them via the [Facebook](facebook.com) app.
+
+
+- ### The "popular titles" provides a list of books that already have sub-groups discussing them. This allows members to get involved with with a specific interest group and mingle more meaningfully.
+
+
+- ### The Club facilitates various outdoor events for the book club members. Sometimes a picnic, sometimes a walk and sometimes just sitting around with your own drink in the garden, all of which creates opportunities to know people living in the neighbourhood.
+
+## New Features to be implemented in future
+
+- A donate page that links to a larger charity that supplies books to the underpriviledged in certain countries
+
+- 
+
+**Used [HTML](html.com), [CSS](https://www.w3schools.com/css/) and [JavaScript](https://www.javascript.com) via bootstrap library for this project. Some CSS elements  **
+
+
+
+
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
