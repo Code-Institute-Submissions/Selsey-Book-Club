@@ -1,14 +1,36 @@
-# Selsey Book Club 
+<h1 align="center">Selsey Book Club Website</h1>
+
+[View the live project here.](https://codeinstitute.net)
+
+This is the website for a neighbourhood book lovers club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for members and non-members.
+
 ## Let's Talk Books
 
-### The book club idea stems from the overall need for human beings to connect with other human beings which gets even more relevant under current circumstances. An informal chat with some of the neighbours down the road pointed towards the need of a common activity that can help people come together and chat. Book reading emerged as something everyone does to some degree so as I decided to take the idea forward.
+### The book club idea stems from the overall need for people to connect with other people. An informal chat with some neighbours down the road pointed towards the need of a common activity that can help people come together and chat. Book reading emerged as something everyone does to some degree so as I decided to take the idea forward.
 
-## User Stories
+## User Experience (UX)
 
-### User 1 : Meet People from the neighbourhood
-### User 2 : Discuss Books
-### User 3: Know about different geners of books available
-### User 4: Start a book club in my own area
+### User stories
+
+- ### User 1 : I want to understand the purpose of the webpage
+
+ 1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
+ 2. The main points are made immediately with the image and features on the home page.
+ 
+ 
+- ### User 2 : I want to navigate with ease
+
+1. The navigation is simple and the home button brings you back from every page.
+2. The facebook button at the bottom of each page takes you directly to the Selsey Book Club facebook page.
+
+- ### User 3 : I want to know what other users of the club think about it
+
+1. The home page has member quotes that expresses clearly that they value the club.
+2. The gender mix of users is also expressed in the quotes section which leaves a positive impression on a new user.
+
+- ### User 2 : Discuss Books with others
+- ### User 3 : Know about different geners of books available
+- ### User 4 : Start a book club in my own area
 
 ## Features
 
@@ -18,69 +40,114 @@
 - ### The "popular titles" provides a list of books that already have sub-groups discussing them. This allows members to get involved with with a specific interest group and mingle more meaningfully.
 
 
-- ### The Club facilitates various outdoor events for the book club members. Sometimes a picnic, sometimes a walk and sometimes just sitting around with your own drink in the garden, all of which creates opportunities to know people living in the neighbourhood.
+- ### The Club facilitates various outdoor events for the book club members. These are organised by members themselves within their specific groups.
 
 ## New Features to be implemented in future
 
-- A donate page that links to a larger charity that supplies books to the underpriviledged in certain countries
-
-- 
-
-**Used [HTML](html.com), [CSS](https://www.w3schools.com/css/) and [JavaScript](https://www.javascript.com) via bootstrap library for this project. Some CSS elements  **
+- A donate page that links to a larger charity that supplies books to the underpriviledged in certain countries.
 
 
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+
+### Further Testing
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+-   Contact form: Testing
+1.  Go to the "Contact Us" page
+2.  Try to submit the empty form - an error message about the required fields appears.
+3.  Try to submit the form with an invalid email address - an error message appears.
+4.  Try to submit the form with all inputs valid - a success message appears.
+
+### Known Bugs
+
+-   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+    -   A white gap can be seen to the right of the footer and navigation bar as a result.
+-   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
 
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+## Sources
+### This project is inspired by 
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- The whiskey drop project - The quotes and features section 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- The Resume project - The navbar design
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- The Love Running project - The contact form
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- The text for recycle books was copied from 
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Content
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+-   All content was written by the developer.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Media
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+-   All Images were obtained from the internet.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Acknowledgements
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+-   My Mentor for continuous helpful feedback.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+-   Tutor support at Code Institute for their support.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+

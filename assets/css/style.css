@@ -128,7 +128,7 @@ text-align: center;
 /*-----------------------features section---------------------------------*/
 
 .features-container {
-   background-color: #f75904;
+   background-color: #82989ab4;
    min-height: 40px;
    font-size: 20px;
    margin-left: 2px;
@@ -188,6 +188,12 @@ footer {
 
 /*----------------------------------------popular titles------------------------------------------------*/
 
+.populartitles-container {
+
+margin-top: 75px;
+
+}
+
 
 .book-list-body {
 
@@ -197,6 +203,14 @@ footer {
 
 /*------------------------form section---------------------------*/
 
+.contact-container {
+    margin-top: 20px;
+    margin-left: 10%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
 
 .form-section {
     clear: left;
@@ -204,11 +218,10 @@ footer {
     background-size: cover;
     background-position: center;
     height: 1050px;
-    overflow: hidden;
 }
 
 .signup-form{
-  margin-top: 150px;
+  margin-top: 50px;
   color: #fff;
   background-color: rgba(60,60,60,0.6);
   max-width: 400px;
@@ -253,4 +266,19 @@ footer {
 }
 
 /*end of form section---------------*/
+
+/*---------------------------recycle section-------------------------------*/
+
+.recycle-container {
+
+    padding: 15px;
+}
+
+h3{
+
+padding: 15px;
+margin: 0 auto;
+font-size: 1.5em;
+
+}
     
