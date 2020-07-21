@@ -1,6 +1,6 @@
 <h1 align="center">Selsey Book Club Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://debarati-datta.github.io/Selsey-Book-Club/)
 
 This is the website for a neighbourhood book lovers club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for members and non-members.
 
@@ -15,7 +15,7 @@ This is the website for a neighbourhood book lovers club. It is designed to be r
 - ### User 1 : I want to understand the purpose of the webpage
 
  1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
- 2. The main points are made immediately with the image and features on the home page.
+ 2. The main points are made immediately with the 'About Us' and 'features' sections on the home page.
  
  
 - ### User 2 : I want to navigate with ease
@@ -110,15 +110,8 @@ The project was deployed to GitHub Pages using the following steps...
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published [site link](https://debarati-datta.github.io/Selsey-Book-Club/) in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
 
 
 
