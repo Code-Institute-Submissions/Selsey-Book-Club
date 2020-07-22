@@ -12,19 +12,20 @@
 }
 
 .name {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 46px;
     margin-top: 50px;
-    color: #fff;
+    color: white;
+
 }
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #fff;
+    color: white;
 }
 
 .menuitem {
@@ -56,6 +57,7 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+    padding-top: 3px;
 }
 
 .hvr-sweep-to-bottom:before {
@@ -76,8 +78,127 @@
 }
 
 
+
+
 /* end of header section------------------------------*/
 
+
+
+
+/*-----------------------About section---------------------------------*/
+
+
+.about-heading{
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-container{
+    padding-top: 50px;
+}
+
+.about-body{
+  
+   font-size: 20px;
+   margin-left: 2px;
+   margin-right: 2px;
+   padding: 10px;
+
+}
+
+
+
+/*-----------------------end of about section---------------------------------*/
+
+
+
+
+/*-----------------------features section---------------------------------*/
+
+.features-container {
+   background-color: #82989ab4;
+   min-height: 40px;
+   font-size: 20px;
+   margin-left: 2px;
+   margin-right: 2px;
+   padding-top: 50px;
+}
+
+.feature-heading{
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.block-divider--black{
+    background-color: #0f0e0d;
+}
+
+
+.feature-body {
+    float: left;
+}
+
+
+/*-----------------------end of features section---------------------------------*/
+
+/*-------------------------footer section----------------------------------------*/
+
+footer {
+    height: 1px;
+    background-color: #777777;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+    
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 10px;
+    padding: 5%;
+    color: rgb(95, 66, 114);
+    
+}
+
+.social-networks li a i:hover {
+
+    background-color: #f84610;
+    border-radius: 10px;
+}
+
+#footer-details {
+    padding: 10px;
+}
+
+/*-----------------------------end of footer section------------------------------------------*/
+
+/*----------------------------------------books------------------------------------------------*/
+
+.books-container {
+
+margin-top: 50px;
+margin-bottom: 35px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.book-list{
+    padding-top: 30px;
+}
+
+.book-list-body {
+    
+    border: 1px solid;
+    border-color: #777777;
+}
 
 /*--------------------quotes section------------------------------*/
 
@@ -94,7 +215,7 @@ text-align: center;
 }
 
 .content-container{
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 75px;
     margin-left: 0px;
     margin-right: 0px;
@@ -131,106 +252,30 @@ text-align: center;
 
 /*-----------------------end of quotes section---------------------------------*/
 
+/*---------------------------events section-------------------------------------*/
 
-/*-----------------------About section---------------------------------*/
-.about-heading{
-    padding-top: 10px;
+.events-heading{
     text-align: center;
+    padding-top: 50px;
     text-transform: uppercase;
 }
 
-.about-body{
-  
-   font-size: 20px;
-   margin-left: 2px;
-   margin-right: 2px;
-   padding: 10px;
 
-}
-
-
-
-/*-----------------------end of about section---------------------------------*/
-
-
-
-
-/*-----------------------features section---------------------------------*/
-
-.features-container {
-   background-color: #82989ab4;
-   min-height: 40px;
-   font-size: 20px;
-   margin-left: 2px;
-   margin-right: 2px;
-}
-
-.feature-heading{
-    padding-top: 10px;
+.events-list{
+    margin: auto;
     text-align: center;
-    text-transform: uppercase;
-
-}
-
-.block-divider--black{
-    background-color: #0f0e0d;
+    padding-bottom: 70px;
+    font-size: 20px;
+    font-weight: 350;
 }
 
 
-.feature-body {
-    float: left;
-}
 
 
-/*-----------------------end of features section---------------------------------*/
-
-footer {
-    height: 1px;
-    background-color: #777777;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks li {
-    display: inline;
-    
-}
-
-.social-networks i {
-    font-size: 200%;
-    margin: 10px;
-    padding: 5%;
-    color: rgb(95, 66, 114);
-    
-}
-
-.social-networks li a i:hover {
-
-    background-color: #f84610;
-}
-
-#footer-details {
-
-    padding: 10px;
-    
-}
-
-/*----------------------------------------popular titles------------------------------------------------*/
-
-.populartitles-container {
-
-margin-top: 75px;
-
-}
+/*---------------------------------end of events section------------------------------------*/
 
 
-.book-list-body {
 
-    border: 1px solid;
-    border-color: #777777;
-}
 
 /*------------------------form section---------------------------*/
 
@@ -252,18 +297,18 @@ margin-top: 75px;
 }
 
 .signup-form{
-  margin-top: 50px;
-  color: #fff;
-  background-color: rgba(60,60,60,0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(60,60,60,0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
 .signup-form h2{
-  color: #fafafa;
-  margin-bottom: 20px;
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .text-input{
@@ -302,14 +347,21 @@ margin-top: 75px;
 
 .recycle-container {
 
-    padding: 15px;
+    padding-top: 25px;
+    background-color: #b8b1b1;
+    padding-bottom: 25px;
 }
 
 h3{
 
-padding: 15px;
+padding: 2px;
 margin: 0 auto;
 font-size: 1.5em;
+
+}
+
+h5{
+padding-top: 5px;
 
 }
     
