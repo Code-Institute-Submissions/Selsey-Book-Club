@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body{
+    font-family: 'Roboto' sans-serif;
+}
+
+
 /*----------------------------header section-----------------------------------------*/
 
 .bg-color-name-title {
@@ -7,22 +12,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5px;
+    padding-left: 30px;
+    
 
 }
 
 .name {
     font-weight: 400;
-    font-size: 46px;
+    font-size: 40px;
     margin-top: 50px;
     color: white;
 
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: white;
@@ -78,18 +83,15 @@
 }
 
 
-
-
 /* end of header section------------------------------*/
 
 
 
 
-/*-----------------------About section---------------------------------*/
+/*-----------------------about section---------------------------------*/
 
 
 .about-heading{
-    padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -99,11 +101,10 @@
 }
 
 .about-body{
-  
    font-size: 20px;
    margin-left: 2px;
    margin-right: 2px;
-   padding: 10px;
+   padding: 30px;
 
 }
 
@@ -123,6 +124,7 @@
    margin-left: 2px;
    margin-right: 2px;
    padding-top: 50px;
+   padding-bottom: 50px;
 }
 
 .feature-heading{
@@ -139,15 +141,22 @@
 
 .feature-body {
     float: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
 /*-----------------------end of features section---------------------------------*/
 
+
+
+
+
+
 /*-------------------------footer section----------------------------------------*/
 
 footer {
-    height: 1px;
+    height: 2px;
     background-color: #777777;
 }
 
@@ -162,7 +171,7 @@ footer {
 
 .social-networks i {
     font-size: 200%;
-    margin: 10px;
+    margin: 5px;
     padding: 5%;
     color: rgb(95, 66, 114);
     
@@ -180,7 +189,10 @@ footer {
 
 /*-----------------------------end of footer section------------------------------------------*/
 
-/*----------------------------------------books------------------------------------------------*/
+
+
+
+/*----------------------------------------books section------------------------------------------------*/
 
 .books-container {
 
@@ -190,15 +202,39 @@ padding-left: 10px;
 padding-right: 10px;
 
 }
+
+.book-body{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
 .book-list{
     padding-top: 30px;
 }
 
 .book-list-body {
     
-    border: 1px solid;
-    border-color: #777777;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
+
+.recycle-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #82989ab4;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+}
+
+/*--------------------end of books section------------------------------*/
+
+
 
 /*--------------------quotes section------------------------------*/
 
@@ -282,7 +318,6 @@ text-align: center;
 .contact-container {
     margin-top: 20px;
     margin-left: 10%;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
@@ -306,9 +341,11 @@ text-align: center;
     padding: 30px;
 }
 
-.signup-form h2{
-    color: #fafafa;
-    margin-bottom: 20px;
+.contact-container h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: black;
+    text-transform: uppercase;
 }
 
 .text-input{
@@ -345,12 +382,7 @@ text-align: center;
 
 /*---------------------------recycle section-------------------------------*/
 
-.recycle-container {
 
-    padding-top: 25px;
-    background-color: #b8b1b1;
-    padding-bottom: 25px;
-}
 
 h3{
 
