@@ -1,27 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
 
 body{
-    font-family: 'Roboto' sans-serif;
+     font-family: Lato;
+     color: black;
+     font-weight: 500;
 }
 
+h2{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#555555;
+}
 
 /*----------------------------header section-----------------------------------------*/
 
 .bg-color-name-title {
-    background: url(../images/start-book-club.jpg);
+    background: url(../images/books-heroimage.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     padding-left: 30px;
+    height: 400px;
     
-
 }
 
 .name {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 50px;
-    color: white;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 
 }
 
@@ -30,7 +42,7 @@ body{
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: white;
+    color: black;
 }
 
 .menuitem {
@@ -156,7 +168,7 @@ body{
 /*-------------------------footer section----------------------------------------*/
 
 footer {
-    height: 2px;
+    height: 1px;
     background-color: #777777;
 }
 
@@ -217,8 +229,8 @@ padding-right: 10px;
 
 .book-list-body {
     
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
@@ -231,6 +243,21 @@ padding-right: 10px;
     
 
 }
+
+
+h3{
+
+padding: 2px;
+margin: 0 auto;
+font-size: 1.5em;
+
+}
+
+h5{
+padding-top: 5px;
+
+}
+
 
 /*--------------------end of books section------------------------------*/
 
@@ -305,6 +332,11 @@ text-align: center;
     font-weight: 350;
 }
 
+.events-list-title{
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 
 
@@ -317,35 +349,38 @@ text-align: center;
 
 .contact-container {
     margin-top: 20px;
-    margin-left: 10%;
     font-weight: 400;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 
 
 .form-section {
     clear: left;
-    background: url("../images/03-young-woman-reading-book-on-stool.jpg");
+    background: url("../images/woman-reading-book-on-stool.jpg");
     background-size: cover;
     background-position: center;
     height: 1050px;
 }
 
+
 .signup-form{
-    margin-top: 50px;
+    margin-left: 20px;
     color: #fff;
     background-color: rgba(60,60,60,0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
     padding: 30px;
+    
+        
 }
 
 .contact-container h2{
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: black;
     text-transform: uppercase;
+
 }
 
 .text-input{
@@ -380,20 +415,7 @@ text-align: center;
 
 /*end of form section---------------*/
 
-/*---------------------------recycle section-------------------------------*/
 
 
 
-h3{
-
-padding: 2px;
-margin: 0 auto;
-font-size: 1.5em;
-
-}
-
-h5{
-padding-top: 5px;
-
-}
     
