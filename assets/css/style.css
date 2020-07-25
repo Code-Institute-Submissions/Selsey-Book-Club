@@ -5,6 +5,7 @@ body{
      font-family: Lato;
      color: black;
      font-weight: 500;
+     font-size: 10px;
 }
 
 h2{
@@ -249,7 +250,7 @@ h3{
 
 padding: 2px;
 margin: 0 auto;
-font-size: 1.5em;
+font-size: 20px;
 
 }
 
@@ -336,6 +337,7 @@ text-align: center;
     letter-spacing: 3px;
     font-weight: 600;
     text-transform: uppercase;
+    color: red;
 }
 
 
@@ -372,6 +374,7 @@ text-align: center;
     max-width: 400px;
     position: absolute;
     padding: 30px;
+    font-size: 20px;
     
         
 }
@@ -416,6 +419,13 @@ text-align: center;
 /*end of form section---------------*/
 
 
-
+@media (min-width:570px){
+.menuitem span {
+       padding-top: 3px;
+}}
+@media (max-width:569px){
+.menuitem span {
+       padding-top: 15px;
+}}
 
     
