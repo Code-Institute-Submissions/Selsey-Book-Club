@@ -25,7 +25,7 @@ h2{
     width: 100%;
     padding-left: 30px;
     height: 400px;
-    
+        
 }
 
 .name {
@@ -83,12 +83,10 @@ h2{
   
 }
 
-
 .menucontainer {
     font-size: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    
 }
 
 .list-inline-item:not(:last-child) {
@@ -96,9 +94,7 @@ h2{
 }
 
 
-/* end of header section------------------------------*/
-
-
+/*------------------- end of header section------------------------------*/
 
 
 /*-----------------------about section---------------------------------*/
@@ -121,11 +117,7 @@ h2{
 
 }
 
-
-
 /*-----------------------end of about section---------------------------------*/
-
-
 
 
 /*-----------------------features section---------------------------------*/
@@ -160,9 +152,6 @@ h2{
 
 
 /*-----------------------end of features section---------------------------------*/
-
-
-
 
 
 
@@ -205,7 +194,7 @@ footer {
 
 
 
-/*----------------------------------------books section------------------------------------------------*/
+/*---------------------------------books section------------------------------------------------*/
 
 .books-container {
 
@@ -214,6 +203,14 @@ margin-bottom: 35px;
 padding-left: 10px;
 padding-right: 10px;
 
+}
+
+.book-image{
+    height: 150px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
 }
 
 .book-body{
@@ -241,22 +238,17 @@ padding-right: 10px;
     background-color: #82989ab4;
     padding-left: 30px;
     padding-right: 30px;
-    
-
 }
 
 
 h3{
-
 padding: 2px;
 margin: 0 auto;
 font-size: 20px;
-
 }
 
 h5{
 padding-top: 5px;
-
 }
 
 
@@ -273,7 +265,6 @@ text-align: center;
 }
 
 
-
 .page-header h2{
     margin-top: 0;
 }
@@ -286,7 +277,6 @@ text-align: center;
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 .quotes .page-header{
     margin-bottom: 25px;
@@ -302,7 +292,6 @@ text-align: center;
 .block-divider--orange{
     background-color: #f75904;
 }
-
 
 .rounded-circle {
     height: 100px;
@@ -330,7 +319,7 @@ text-align: center;
     text-align: center;
     padding-bottom: 70px;
     font-size: 20px;
-    font-weight: 350;
+    font-weight: 400;
 }
 
 .events-list-title{
@@ -340,12 +329,7 @@ text-align: center;
     color: red;
 }
 
-
-
 /*---------------------------------end of events section------------------------------------*/
-
-
-
 
 /*------------------------form section---------------------------*/
 
@@ -353,8 +337,10 @@ text-align: center;
     margin-top: 20px;
     font-weight: 400;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 60px;
+    padding-bottom: 30px;
 }
+
 
 
 
@@ -370,20 +356,19 @@ text-align: center;
 .signup-form{
     margin-left: 20px;
     color: #fff;
-    background-color: rgba(60,60,60,0.6);
+    background-color: rgba(60,60,60,0.4);
     max-width: 400px;
     position: absolute;
-    padding: 30px;
+    padding: 40px;
     font-size: 20px;
-    
-        
 }
 
-.contact-container h2{
+.form-heading{
     padding-bottom: 10px;
-    color: black;
+    color: #fff;
     text-transform: uppercase;
-
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 .text-input{
@@ -423,6 +408,7 @@ text-align: center;
 .menuitem span {
        padding-top: 3px;
 }}
+
 @media (max-width:569px){
 .menuitem span {
        padding-top: 15px;

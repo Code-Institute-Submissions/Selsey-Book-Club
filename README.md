@@ -1,8 +1,8 @@
-<h1 align="center">Selsey Book Club Website</h1>
+<h1 align="center">Selsey Book Club</h1>
 
 [View the live project here.](https://debarati-datta.github.io/Selsey-Book-Club/)
 
-This is the website for a neighbourhood book lovers club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for members and non-members.
+This is the website for a neighbourhood book-lovers club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for members and non-members.
 
 ## Let's Talk Books
 
@@ -47,7 +47,7 @@ This is the website for a neighbourhood book lovers club. It is designed to be r
 
 ## New Features to be implemented in future
 
-- A donate page that links to a larger charity that supplies books to the underpriviledged in certain countries.
+- A donate page with payment provision that links to a larger charity that supplies books to the underpriviledged in certain countries.
 
 
 ## Technologies Used
@@ -95,11 +95,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 3.  Try to submit the form with an invalid email address - an error message appears.
 4.  Try to submit the form with all inputs valid - a success message appears.
 
-### Known Bugs
+## Learnings
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
--   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   The initial impulse was to make myself look good only through the website. My mentor introduced me to the concept of user stories. It completely changed the way I was approaching the project.
+-   I also was living under the impression that too many commits are unnecessary and just shows how little you are doing so was reluctant to commit unless I had made significant changes. Discussion with my mentor put an end to that myth. That is the reason my initial commits are rare.
+-   Asthetic appeal and readability of the text improved significantly when I tried the font 'Lato' instead of 'Roboto'. Had never realised before that fonts make such a huge difference.
+
+## Limitations
+
+-   Upon submitting the form, to come back to the website, we have to rely on the browser's back button. I would ideally want the 'congratulations' message to open in a separate tab. However, I could not achieve it.
+
+## Known bugs
+
+-   While inspecting, there is a very thin white space on the extreme right that appears to keep widening for screen widths below 1068px.
 
 ## Deployment
 
@@ -117,7 +125,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 
 
-
 ## Sources
 ### This project is inspired by 
 
@@ -129,8 +136,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 - The text for recycle books was copied from [link](https://wasteless.zerowastescotland.org.uk)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
+- The font 'Lato' used was inspired by the Love Running Project (Code Institute)
 
 ### Content
 
@@ -138,7 +146,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 
--   All Images were obtained from the internet.
+-   All Images were obtained from the internet and renamed.
 
 ### Acknowledgements
 
